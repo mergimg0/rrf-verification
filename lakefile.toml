@@ -1,0 +1,10 @@
+name = "rrf_verification"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["RrfVerification"]
+
+[leanOptions]
+pp.unicode.fun = true
+
+[[lean_lib]]
+name = "RrfVerification"
